@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Navigation_Page"
+             x:Class="Navigation_Page.MainPage">
+
+
+  <StackLayout Margin ="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+    
+    <Label Text ="Welcome to Login"/>
+    <Entry Placeholder ="Username / Email Address" x:Name="entryUsername"/>
+    <Entry Placeholder ="Password" x:Name="entryPassword"/>
+    <Button Text ="Enter" VerticalOptions="CenterAndExapnd" HorizontalOptions="Center" Clicked="OnButtonClicked"/>
+
+  </StackLayout>
+  
+	<Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+</ContentPage>
